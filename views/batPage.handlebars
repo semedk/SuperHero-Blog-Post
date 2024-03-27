@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Project 2 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" charset="utf-8" defer></script>
+</head>
+
+<body>
+    <br>
+    <div class="pages">
+        <h3 id="home"> <a href="http://localhost:5000">Home </a> </h3>
+        <h3 id="rating"><a href="http://localhost:5000/rating">Rating </a></h3>
+    </div>
+
+    <div class="Heroes">
+        {{#each batmanData}}
+        {{>characterImage}}
+        {{/each}}
+    </div>
+
+    <h1> Add a member </h1>
+
+    <label for="thename" class="input" id="nameinput"> Name: </label>
+    <input type="text" id="thename"><br><br>
+
+    <label for="theimg" class="input" id="imginput"> URL: </label>
+    <input type="text" id="theimg"><br><br>
+
+    <button type="button" class="thebutton">Submit</button><br><br>
+
+    <h1> Comment: </h1>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+    <button type="button" class="thebutton2">Submit</button><br><br>
+
+    <h1> Comment Section: </h1>
+</body>
+</html>

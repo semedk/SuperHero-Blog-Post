@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://images8.alphacoders.com/463/thumbbig-463477.webp");
+    background-size: cover;
+}
+
+img {
+    width: 200px;
+}
+
+.Heroes {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.Batfamily {
+    padding: 40px;
+}
+
+h1 {
+    color: darkred;
+}
+
+h2 {
+    color: darkred;
+}
+
+.input {
+    color: darkred;
+}
+
+#thecomment {
+    height: 50px;
+    width: auto;
+}
+
+p {
+    color: white;
+}
+
+.pages {
+    display: inline;
+}
+
+h3 {
+    display: inline-block;
+    color: darkred;
+    font-size: 40px;
+}
+
+#home {
+    border-style: solid;
+    border-color: darkred;
+    width: 600px;
+    padding: 2px;
+    text-align: center;
+    border-width: thick;
+}
+
+#rating {
+    border-style: solid;
+    border-color: darkred;
+    width: 600px;
+    padding: 2px;
+    text-align: center;
+    border-width: thick;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Assignment 2 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index2.js" charset="utf-8" defer></script>
+</head>
+
+<body>
+    <div class="pages">
+        <h3 id="home"> <a href="http://localhost:5000">Home </a> </h3>
+        <h3 id="rating"><a href="http://localhost:5000/rating">Rating </a></h3>
+    </div>
+
+    <h1> Pick a Hero </h1>
+
+    <select name="bat" id="bat">
+        {{#each batmanData}}
+        <option value="{{name}}">{{name}}</option>
+        {{/each}}
+    </select>
+
+    <h1> Give it a scale from 1-10 </h1>
+
+    <input type="number" id="scale" name="scale" min="1" max="10"/> <br><br>
+
+    <button type="button" class="thebutton3">Submit</button>
+
+</body>
+</html>
